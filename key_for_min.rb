@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   temp_key = ""
   
   name_hash.each do |key, value|
-    if value > temp_value
+    if value < temp_value
       temp_value = value
     else
       temp_counter = counter
