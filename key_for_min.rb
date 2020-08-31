@@ -21,6 +21,7 @@ def key_for_min_value(name_hash)
     if counter == temp_counter
       temp_key = key
     end
+    counter += 1
   end
   
   return temp_key
