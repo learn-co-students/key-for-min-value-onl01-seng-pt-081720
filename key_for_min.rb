@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   counter = 0
-  temp_value = 0
+  temp_value = 1000000
   temp_counter = 0
   temp_key = ""
   
